@@ -1,0 +1,11 @@
+{
+	"compilerOptions": {
+		"allowJs": true,
+		"allowSyntheticDefaultImports": true,
+		"types": ["vite/client"],
+		"outDir": "./dist",
+		"lib": ["DOM", "ESNext", "DOM.Iterable"]
+	},
+	"include": ["./**/*", "./auto-imports.d.ts"],
+	"exclude": ["./dist"]
+}
